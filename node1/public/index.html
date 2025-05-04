@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Proyecto DOM Moderno</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Controlador</h2>
+    <button onclick="agregarH1('Hola')">Agregar Título</button>
+    <button onclick="cambiarTextoH1('Chau')">Cambiar Texto</button>
+    <button onclick="cambiarColorH1('Yellow')">Cambiar Color</button>
+    <hr>
+    <button onclick="agregarImagen('https://imgs.search.brave.com/NZIlZdoU4Z1gwYhIcRWJ7Nv79DbUWodjm5g8Fs89ty4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMzLm1lbWVkcm9p/ZC5jb20vaW1hZ2Vz/L1VQTE9BREVEMjI0/LzY3NmYyNDFhYjAw/MzguanBlZw')">Agregar Imagen</button>
+    <button onclick="cambiarImagen('https://imgs.search.brave.com/iqw-owDX-yU-OSybq5Bnw8fBkoZ4oUi_w9hM5RoBUO0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMzLm1lbWVkcm9p/ZC5jb20vaW1hZ2Vz/L1VQTE9BREVEMS82/NzU5YzVjN2E2NWVi/LmpwZWc')">Cambiar Imagen</button>
+    <button onclick="cambiarTamanoImagen('200px')">Cambiar Tamaño</button>
+    <hr>
+    <button onclick="resetear()">Resetear</button>
+</div>
+
+  <div class="main">
+    <div id="contenido">
+      <h1 id="titulo"></h1>
+      <div id="contenedorImagen"></div>
+    </div>
+  </div>
+
+</body>
+</html> 

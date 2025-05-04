@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Inicio</title>
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" href="style.css">
+      </head>
+<body>
+    <h1>Inicio</h1>
+    <div class="paginador">
+        <a onclick="root('/index.html')" class="activo">Inicio</a>
+        <a onclick="root('/page1.html')">1</a>
+        <a onclick="root('/page2.html')">2</a>
+        <a onclick="root('/page3.html')">3</a>
+        <a onclick="root('/page4.html')">4</a>
+        <a onclick="root('/page5.html')">5</a>
+    </div>
+
+    <div id="contenedorHijos">
+        <div>Hijo 1</div>
+        <div>Hijo 2</div>
+        <div>Hijo 3</div>
+        <div>Hijo 4</div>
+        <div>Hijo 5</div>
+    </div>
+
+    <button onclick="contarHijos()">Contar hijos del contenedor</button>
+</body>
+</html>

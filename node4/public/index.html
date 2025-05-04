@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gestión de Nodos</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Gestión de Nodos</h1>
+
+  <form id="formulario">
+    <input type="text" id="nombre" placeholder="Nombre del enlace" required />
+    <input type="url" id="enlace" placeholder="URL del enlace" required />
+    <button type="submit">Crear nodo</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Enlace</th>
+        <th>Acciones</th>
+      </tr>
+      <div id="output"></div>
+      <br>
+    </thead>
+    <tbody id="tabla-nodos"></tbody>
+  </table>
+</body>
+</html>

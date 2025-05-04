@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .paginador {
+    margin-top: 20px;
+  }
+
+  .paginador a {
+    margin: 0 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #616161;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .paginador a:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+
+  .paginador a.activo {
+    background-color: #007BFF;
+    color: white;
+    border-color: #007BFF;
+  }
+
+  .area {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .area:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+  }
+  
+  .area h3 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+#contenedorHijos {
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #e8e8e8;
+  width: 200px;
+  border-radius: 5px;
+}
+
+#contenedorHijos div {
+  padding: 5px;
+  background-color: #fff;
+  margin: 5px 0;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
